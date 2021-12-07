@@ -1,0 +1,76 @@
+/*Madilynn Jepperson. The last day I worked on this page 12/7*/
+
+body{
+    background-color:  rgb(167, 73, 112);
+}
+.title{
+  font-family: 'Abril Fatface';
+  text-align: center;
+  font-size: 30px;
+  color:oldlace;
+}
+h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  text-align: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    width: 60%;
+    height: 100%;
+    margin: 50px;
+    gap: 50px;
+    position: relative;
+    left:17%;
+}
+
+.grid-item {
+background-color: #f5ca92;
+border: solid 2px oldlace;
+text-align: center;
+border-radius: 25px;
+color: slategray;
+}
+
+.tableauPlaceholder {
+  width: 100%;
+  height: 40%;
+}
+.footer {
+    background-color:  #f5ca92;
+    grid-row: 4;
+    grid-column: 1 / span 3;
+    color: slategray;
+    margin: 0px;
+  }
+  .item7 {
+    grid-column: 2;
+}
+
+.navbar-toggler {
+  display: inline-block;
+  background-color: oldlace;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+}
+
+.navbar-toggler li{
+  display: inline-block;
+  padding: 5px 5px;
+  height: 20px;
+  flex-grow: 3;
+  list-style: none;
+}
+
+.navbar-toggler li a{
+  color:slategray;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+.navbar-toggler li a:hover{
+  font-size: 48px;
+}

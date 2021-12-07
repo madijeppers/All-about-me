@@ -1,0 +1,95 @@
+/*Madilynn Jepperson. Last Edited on 12/6*/
+/*I edited these on the main style sheet and then saw
+ it said to have a seperate sheet after I had made 
+ the changes so I pasted the items I changes here.*/
+
+/*LOOK*/
+ body {
+    background-color: rgb(167, 73, 112);
+    -webkit-tap-highlight-color: rgba(8, 8, 8, 0);
+  }
+  #mainNav {
+    background-color: oldlace;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: slategray;
+    font-weight: 600;
+  }
+  .navbar-toggler {
+      background-color: slategray;
+  }
+  .cta .cta-inner {
+        color: slategray;
+  }
+  .cta {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: rgba(230, 167, 86, 0.9);
+    margin-top: 20px;
+
+  /*words*/
+  .section-heading .section-heading-upper {
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  
+  .section-heading .section-heading-lower {
+    display: block;
+    font-size: 40px;
+    font-weight: 40;
+    margin-bottom: -20px;
+    margin-top:5px;
+  }
+
+  .section-heading .section-heading-lower-resume {
+    display: block;
+    font-size: 20px;
+    font-weight: 150;
+    margin-bottom: -10px;
+    margin-top:5px;
+  }
+
+  .info {
+    padding-left: 0;
+    list-style: none;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: none;
+    margin-top: 20px;
+  }
+
+  .title{
+  margin-bottom: 30px;
+  font-family: 'Abril Fatface'
+  }
+  /*video*/
+  .argentina {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10 px;
+    border: 2px solid black;
+  }
+  
+  /*images*/
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15 px;
+  }
+  
+  .img-thumbnail {
+    border: 2px solid black;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
